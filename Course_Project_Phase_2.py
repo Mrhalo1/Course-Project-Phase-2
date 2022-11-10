@@ -83,10 +83,10 @@ def PrintTotal(EmpTotals):
     print()
     #use dictionary to print totals
     print(f'Total Number of Employees: {EmpTotals["TotalEmployees"]}')
-    print(f'Total Hours Worked: {EmpTotals["TotalHours:,.2f"]}')
-    print(f'Total Gross Pay: {EmpTotals["TotalGrossPay:,.2f"]}')
-    print(f'Total Income Tax: {EmpTotals["TotalTax:,.2f"]}')
-    print(f'Total Net Pay: {EmpTotals["TotalNetPay:,.2f"]}')
+    print(f'Total Hours Worked: {EmpTotals["TotalHours"]:,.2f}')
+    print(f'Total Gross Pay: {EmpTotals["TotalGrossPay"]:,.2f}')
+    print(f'Total Income Tax: {EmpTotals["TotalTax"]:,.2f}')
+    print(f'Total Net Pay: {EmpTotals["TotalNetPay"]:,.2f}')
     #write code to print TotalHours, TotalGrossPay, TotalTax, and TotalNetPay from dictionary
               
 
@@ -114,9 +114,9 @@ if __name__ == "__main__":
         #get_emp_info(empname, hours, hourlyrate, grosspay, tax, incometax, netpay)
 
         #write code to insert fromdate, todate, empname, hours, hourlyrate, and taxrate into list EmpDetail
-        EmpDetailList.extend([fromdate, todate, empname, hours, hourlyrate, tax])
+        EmpList = [fromdate, todate, empname, hours, hourlyrate, tax]
 
-        EmpDetailList.append(EmpDetailList)
+        EmpDetailList.append(EmpList)
 
         #TotalEmployees += 1
         #TotalHours += hours
