@@ -82,11 +82,11 @@ def printinfo(EmpDetailList):
 def PrintTotal(EmpTotals):
     print()
     #use dictionary to print totals
-    print(f"Total Number of Employees: {EmpTotals['TotalEmployees']}")
-    print(f"Total Hours Worked: {EmpTotals['TotalHours:,.2f']}")
-    print(f"Total Gross Pay: {EmpTotals['TotalGrossPay:,.2f']}")
-    print(f"Total Income Tax: {EmpTotals['TotalTax:,.2f']}")
-    print(f"Total Net Pay: {EmpTotals['TotalNetPay:,.2f']}")
+    print(f'Total Number of Employees: {EmpTotals["TotalEmployees"]}')
+    print(f'Total Hours Worked: {EmpTotals["TotalHours:,.2f"]}')
+    print(f'Total Gross Pay: {EmpTotals["TotalGrossPay:,.2f"]}')
+    print(f'Total Income Tax: {EmpTotals["TotalTax:,.2f"]}')
+    print(f'Total Net Pay: {EmpTotals["TotalNetPay:,.2f"]}')
     #write code to print TotalHours, TotalGrossPay, TotalTax, and TotalNetPay from dictionary
               
 
